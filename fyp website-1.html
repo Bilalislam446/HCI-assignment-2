@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Smart AI Skin Cancer Detection</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+			background-image: url("knockmany-forest.jpg");
+        
+        }
+
+        header {
+            background-color: #2a2a2a;
+            color: black;
+            padding: 10px;
+        }
+
+        .header-top {
+            display: flex;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			text-align: center;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 30px;
+			color: aliceblue;
+			
+	
+        }
+
+        .donate-btn {
+            background-color: #ff4a4a;
+            color: white;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero-section {
+            background-image: url('autumn-background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: black;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .hero-text h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero-text ul {
+            list-style: none;
+        }
+
+        .hero-text ul li {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+
+        .about-section {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .help-section {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #fff;
+        }
+
+        .help-items {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .help-item {
+            width: 30%;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .stats-section {
+            display: flex;
+            justify-content: space-around;
+            background-color: #fff7e0;
+            padding: 50px 0;
+        }
+
+        .stat-item {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .big-see-section {
+            background-color: #4ab2c8;
+            color: white;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .blog-section {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 20px;
+        }
+
+        .blog-item {
+            width: 30%;
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .social-media {
+            margin-top: 10px;
+        }
+
+        .social-media a {
+            margin: 0 10px;
+        }
+
+        .social-media img {
+            width: 24px;
+            height: 24px;
+        }
+		.hero-text {
+    position: relative;
+    display: inline-block; /* Allows the background to fit the text */
+}
+
+.hero-text::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.5); /* White background with 50% opacity */
+    z-index: -1; /* Place the background behind the text */
+}
+
+.hero-text p {
+    position: relative;
+    color: black; /* Text color */
+    padding: 10px; /* Optional padding for spacing */
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <p>Smart Ai Skin Cancer Screening</p>
+            <button class="donate-btn">DONATE NOW!</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Prevention</a></li>
+                <li><a href="#">Skin Cancer Information</a></li>
+                <li><a href="#">Risk Factors</a></li>
+                <li><a href="#">Early Detection</a></li>
+                <li><a href="#">Treatment & Resources</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Get Involved</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-text">
+            <h1>Healthy Skin Is In! Protect Yourself Year-Round</h1>
+            <ul>
+                <li>What you need to know about skin cancer</li>
+                <li>Learn how to spot skin cancer</li>
+                <li>Find out your skin cancer risk</li>
+                <li>Get the facts about skin cancer</li>
+                <li>Support free screening, education & research</li>
+                <li>Follow our free screening & education program</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <p>
+            Since 1979, The Skin Cancer Foundation has set the standard for educating the public and the medical community
+            about skin cancer, its prevention by means of sun protection, the need for early detection and prompt, effective
+            treatment. The Foundation is a nonprofit 501(c)(3) organization that relies on donor funds. Support our work.
+        </p>
+    </section>
+
+    <section class="help-section">
+        <h2>We Can Help</h2>
+        <div class="help-items">
+            <div class="help-item">
+                <h3>Melanoma Warning Signs</h3>
+                <p>How to spot this dangerous skin cancer early when it's easiest to treat.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="help-item">
+                <h3>Save Destination Healthy Skin</h3>
+                <a href="#" class="donate-btn">DONATE TODAY</a>
+            </div>
+            <div class="help-item">
+                <h3>What Does Skin Cancer Look Like?</h3>
+                <p>View pictures of common skin cancers and learn what to look for.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-section">
+        <div class="stat-item">
+            <p>20% of Americans will develop skin cancer</p>
+        </div>
+        <div class="stat-item">
+            <p>More than 2 people die of skin cancer every hour</p>
+        </div>
+        <div class="stat-item">
+            <p>Having 5+ sunburns doubles your risk for melanoma</p>
+        </div>
+        <div class="stat-item">
+            <p>Melanoma early detection 5-year survival rate is 99%</p>
+        </div>
+    </section>
+
+    <section class="big-see-section">
+        <h2>Skin Cancer Is The Cancer You Can See.</h2>
+        <p>
+            THE BIG SEE® Campaign aims to inspire you to get to know your skin, check yourself head-to-toe once a month,
+            and keep these three words in mind: NEW, CHANGING, UNUSUAL. It could save your life.
+        </p>
+    </section>
+
+    <section class="blog-section">
+        <div class="blog-item">
+            <h3>A Melanoma Expert’s Best Advice on How to Beat It</h3>
+        </div>
+        <div class="blog-item">
+            <h3>Melissa’s Battle Against Chronic Skin Cancer: "It Keeps Coming Back."</h3>
+        </div>
+        <div class="blog-item">
+            <h3>Your September Issue: Fall Is for Healthy Skin</h3>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 The Skin Cancer Foundation. A 501(c)(3) nonprofit organization (EIN: 13-2948778)</p>
+        <div class="social-media">
+            <a href="#"><img src="vecteezy_facebook-logo-png-facebook-icon-transparent-png_18930476.png" alt="Facebook"></a>
+            <a href="#"><img src="vecteezy_instagram-icon-png_16716469.png" alt="Instagram"></a>
+            <a href="#"><img src="vecteezy_pinterest-logo-png-pinterest-logo-transparent-png_23986660.png" alt="Pinterest"></a>
+            <a href="#"><img src="3146788_youtube_logo_icon.png" alt="YouTube"></a>
+        </div>
+    </footer>
+</body>
+</html>
